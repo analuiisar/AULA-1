@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ana Luísa Ribeiro - Meu primeiro HTML</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background: linear-gradient(to left, #cde9ec, #5dd0df);
+      text-align: center;
+    }
+
+    .perfil {
+      background-color: rgb(224, 240, 243);
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    .foto {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #00b2f8;
+    }
+
+    h1 {
+      color: #0a0a0a;
+      margin-top: 15px;
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #414040;
+      margin-bottom: 25px;
+    }
+
+    p {
+      color: #414040;
+      line-height: 1.6;
+    }
+
+    .botoes {
+      margin-top: 25px;
+    }
+
+    .botao {
+      background-color: #00b2f8;
+      color: white;
+      padding: 12px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .botao:hover {
+      background-color: #5dd0df;
+    }
+
+    .redes {
+      margin-top: 30px;
+    }
+
+    .redes a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #5dd0df;
+      font-weight: bold;
+    }
+
+    .redes a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="perfil">
+    <img class="foto" src="imagens\foto2.jpg.jpeg" alt="imagens\foto3 copy.jpg">
+
+    <h1>Hello Devs! Meu nome é Ana Luísa.</h1>
+    <h2>Tenho 28 anos e sou de Volta Redonda, RJ.</h2>
+
+    <p>Sou Enfermeira Emergencista/Intensivista e agora Futura Desenvolvedora! Aqui vou contar um pouquinho sobre quem eu sou.</p>
+
+    <div class="botoes">
+      <button class="botao" onclick="alert('Sou casada com o Érick. Juntos temos a Amora e agora estamos esperando o Arthur!')">Minha Família</button>
+      <button class="botao" onclick="alert('Trabalho como enfermeira há 4 anos e estou atuando no setor de Pronto Atendimento. Agora, mais do que nunca, empenhada em entrar de cabeça no mundo da programação e realizar a transição de carreira!')">Carreira</button>
+      <button class="botao" onclick="alert('Gosto de viajar, conhecer a culinária de novos lugares, estudar e cuidar da minha casa e da minha família.')">Hobbies</button>
+      <button class="botao" onclick="alert('Tenho licença de enfermagem para atuar dos EUA depois de um longo processo de validação de diploma.')">Curiosidades</button>
+      <button class="botao" onclick="alert('Gosto muito de me aventurar e tentar coisas novas, e é por isso que hoje estou aqui junto com a Dominadev. Para ampliar meus conhecimentos na área de desenvolvimento web e poder me encontrar dentro da profissão.')">Dominadev</button>
+    </div>
+
+    <div class="redes">
+      <p>Onde me encontrar:</p>
+      <a href="https://www.linkedin.com/in/ana-lu%C3%ADsa-ribeiro-de-melo-45b041167/" target="_blank">🔗LinkedIn</a>
+      <a href="https://www.instagram.com/analuiisar/" target="_blank">📷Instagram</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
